@@ -25,6 +25,9 @@ function pesquisar(){
             <h2>${dado.titulo}</h2>
             <p>Plataforma: ${dado.plataforma}</p>
             <p class="descricao-meta"><a href="${dado.link}" target="_blank">${dado.titulo} </a>${dado.descricao}</p>
+            <div id="iframe-div" style="text-align: center">
+            <iframe width="80%" height="355" src="${dado.trailer}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
             </div>`;
         } 
             
